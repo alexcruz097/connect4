@@ -10,7 +10,7 @@ class Game {
     this.width = width;
   }
   makeBoard() {
-    for (let y = 0; y < this.height; y++) {
+    for (let y = 0; y < this.height; y++) {  
       board.push(Array.from({ length: this.width }));
     }
   }
